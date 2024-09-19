@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Extendido</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Registro Extendido</h2>
+        <p class="text-center">Aquellos proveedores y contratistas con perfil estratégico para Pemex deben completar este formulario extendido.</p>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <!-- Campos adicionales para el registro extendido -->
+            <div class="form-group row">
+                <label for="declaracion_impuestos" class="col-sm-6 col-form-label">Declaración anual de impuestos de los dos últimos ejercicios fiscales</label>
+                <div class="col-sm-3">
+                    <input type="file" class="form-control-file" id="declaracion_impuestos" name="declaracion_impuestos" required>
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" placeholder="Folio" id="folio_declaracion_impuestos" name="folio_declaracion_impuestos">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="estados_financieros" class="col-sm-6 col-form-label">Estados financieros auditados de los dos últimos ejercicios fiscales</label>
+                <div class="col-sm-3">
+                    <input type="file" class="form-control-file" id="estados_financieros" name="estados_financieros" required>
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" placeholder="Folio" id="folio_estados_financieros" name="folio_estados_financieros">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="contratos_licenciamiento" class="col-sm-6 col-form-label">Contratos de licenciamiento o distribución exclusiva o patente</label>
+                <div class="col-sm-3">
+                    <input type="file" class="form-control-file" id="contratos_licenciamiento" name="contratos_licenciamiento">
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" placeholder="Folio" id="folio_contratos_licenciamiento" name="folio_contratos_licenciamiento">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="certificados_calidad" class="col-sm-6 col-form-label">Comprobantes de certificados vigentes de calidad emitidos por instituciones certificadoras</label>
+                <div class="col-sm-3">
+                    <input type="file" class="form-control-file" id="certificados_calidad" name="certificados_calidad">
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" placeholder="Folio" id="folio_certificados_calidad" name="folio_certificados_calidad">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="normas_tecnicas" class="col-sm-6 col-form-label">Comprobantes de normas técnicas o especialización según su rama</label>
+                <div class="col-sm-3">
+                    <input type="file" class="form-control-file" id="normas_tecnicas" name="normas_tecnicas">
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" placeholder="Folio" id="folio_normas_tecnicas" name="folio_normas_tecnicas">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="carta_buro_credito" class="col-sm-6 col-form-label">Carta de Buró de Crédito</label>
+                <div class="col-sm-3">
+                    <input type="file" class="form-control-file" id="carta_buro_credito" name="carta_buro_credito" required>
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" placeholder="Folio" id="folio_carta_buro_credito" name="folio_carta_buro_credito">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+        </form>
+    </div>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

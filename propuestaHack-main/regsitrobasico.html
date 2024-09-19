@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Básico</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Registro Básico</h2>
+        <form action="inicio.html" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="acta_constitutiva">Acta Constitutiva y últimas modificaciones (debidamente notariadas, español para nacionales, inglés para extranjeros)</label>
+                <input type="file" class="form-control-file" id="acta_constitutiva" name="acta_constitutiva">
+            </div>
+            <div class="form-group">
+                <label for="cedula_identificacion">Cédula de Identificación Fiscal (en donde conste el domicilio fiscal de la empresa)</label>
+                <input type="file" class="form-control-file" id="cedula_identificacion" name="cedula_identificacion">
+            </div>
+            <div class="form-group">
+                <label for="poder_notarial">Poder Notarial del representante legal (Persona Moral)</label>
+                <input type="file" class="form-control-file" id="poder_notarial" name="poder_notarial">
+            </div>
+            <div class="form-group">
+                <label for="comprobante_domicilio">Comprobante de domicilio (con una antigüedad no mayor a 3 meses y que indique, la razón social y la dirección fiscal que se registra)</label>
+                <input type="file" class="form-control-file" id="comprobante_domicilio" name="comprobante_domicilio">
+            </div>
+            <div class="form-group">
+                <label for="carta_anuencia">Carta de Anuencia</label>
+                <input type="file" class="form-control-file" id="carta_anuencia" name="carta_anuencia">
+            </div>
+            <div class="form-group">
+                <label for="carta_adhesion">Carta de Adhesión</label>
+                <input type="file" class="form-control-file" id="carta_adhesion" name="carta_adhesion">
+            </div>
+            <div class="form-group">
+                <label for="formato_efirma">Formato de e.firma</label>
+                <input type="file" class="form-control-file" id="formato_efirma" name="formato_efirma">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block mt-3">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
+
